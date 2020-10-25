@@ -22,13 +22,13 @@ header {
   font-size: 2rem;
   color: white;
   background: cornflowerblue;
-  padding: 1em;
 }
 
 header div {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
+  padding: 1em .5em;
 }
 
 .content {
