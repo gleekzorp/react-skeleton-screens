@@ -1,23 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+const { default: Articles } = require("./components/articles");
+const { default: UserDetails } = require("./components/user-details");
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <header>
+        <div>Skeletons</div>
       </header>
+      <div className="content">
+        <Articles />
+        <UserDetails />
+      </div>
     </div>
   );
 }
