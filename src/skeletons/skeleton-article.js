@@ -1,7 +1,6 @@
 import SkeletonElement from './skeleton-element';
-import './skeleton.css';
 
-const SkeletonArticle = (props) => {
+const SkeletonArticle = () => {
   return ( 
     <div className="skeleton-wrapper">
       <div className="skeleton-article">
