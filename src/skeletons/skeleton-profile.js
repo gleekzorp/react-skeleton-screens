@@ -1,3 +1,4 @@
+import Shimmer from "./shimmer";
 import SkeletonElement from "./skeleton-element";
 
 const SkeletonProfile = ({ theme }) => {
@@ -15,6 +16,7 @@ const SkeletonProfile = ({ theme }) => {
           <SkeletonElement type="text" />
         </div>
       </div>
+      <Shimmer />
     </div>
   );
 };
